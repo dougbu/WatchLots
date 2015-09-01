@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B641BF61-0C5C-429F-ADC4-7EC52E57B205}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6262D40A-B965-4E55-BF40-C3CA8FE551DC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WatchLots", "src\WatchLots\WatchLots.xproj", "{284454FE-ED93-4108-927D-01562B5CE3A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{284454FE-ED93-4108-927D-01562B5CE3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284454FE-ED93-4108-927D-01562B5CE3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284454FE-ED93-4108-927D-01562B5CE3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284454FE-ED93-4108-927D-01562B5CE3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{284454FE-ED93-4108-927D-01562B5CE3A7} = {B641BF61-0C5C-429F-ADC4-7EC52E57B205}
+	EndGlobalSection
+EndGlobal
